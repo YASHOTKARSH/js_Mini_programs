@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Write a C program to enter radius of a circle and find its diameter, circumference and area.</title>
+</head>
+<body>
+    <script>
+        const r = parseFloat(prompt("Enter Radius"));
+        const pi = (Math.PI).toFixed(2);
+        const diameter = 2*r;
+        const circumference = 2*pi*r;
+        const area = pi*r*r;
+        alert(`Radius :- ${r}\nDiameter :- ${diameter}\nCircumference :- ${circumference}\nArea :- ${area}`);
+    </script>
+</body>
+</html>
